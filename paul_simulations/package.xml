@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<package format="2">
+  <name>paul_simulations</name>
+  <version>0.1.0</version>
+  <description>ROS package for PAUL project simulations</description>
+  <maintainer email="william.babin-demers@usherbrooke.ca">William Babin-Demers</maintainer>
+  <license>Apache-2.0</license>
+
+  <buildtool_depend>catkin</buildtool_depend>
+
+  <exec_depend>paul_gazebo</exec_depend>
+
+  <export>
+    <metapackage/>
+  </export>
+</package>
