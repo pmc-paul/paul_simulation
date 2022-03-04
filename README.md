@@ -36,6 +36,12 @@ The installation is fairly easy. You only need to add the package in your ROS wo
     catkin_make
     ```
 
+1. Source the build file:
+
+    ```bash
+    source devel/setup.bash
+    ```
+
 ## Usage
 
 ### Basic example
