@@ -1,4 +1,4 @@
-# paul_simulations
+# paul_simulation
 
 ROS package for the PAUL project simulations environment. Tested for ROS Melodic with Gazebo 9.0 on Ubuntu 18.04. SDF models found in the *paul_gazebo/models/* were taken from the Ignition Robotics library, available [here](https://app.ignitionrobotics.org/dashboard). These models are licensed under the Creative Commons 4.0 license.
 
