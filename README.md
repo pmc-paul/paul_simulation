@@ -1,4 +1,4 @@
-# paul_simulations
+# paul_simulation
 
 ROS package for the PAUL project simulations environment. Tested for ROS Melodic with Gazebo 9.0 on Ubuntu 18.04. SDF models found in the *paul_gazebo/models/* were taken from the Ignition Robotics library, available [here](https://app.ignitionrobotics.org/dashboard). These models are licensed under the Creative Commons 4.0 license.
 
@@ -53,16 +53,6 @@ roslaunch paul_gazebo world.launch
 ```
 
 This command will only launch Gazebo with the specified world. By default, this will be the simplified testbench. By passing the **world** argument, you can choose between *testbench_simplified*, *testbench* and *grocery*. 
-
-### Kinova Gen3 and Gen3 Lite
-
-This package was built with Kinova's Gen3 and Gen3 Lite arms. Both of these arms can be spawned in the testbench world with the following command.
-
-```bash
-roslaunch paul_gazebo arm_simulation.launch
-```
-
-Unlike *world.launch*, this file starts a ROS node to control the Gen3 and Gen3 Lite. Thus, the arm will be loaded in the **robot_description** parameter from Kinova's URDF. It is expected that you have the [ros_kortex](https://github.com/Kinovarobotics/ros_kortex) repository in your workspace. You can specify which type of arm to load with the **arm** parameter in the launch file. You can choose between *gen3* and *gen3_lite*.
 
 ### Custom launch file
 
